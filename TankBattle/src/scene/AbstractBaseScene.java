@@ -10,7 +10,8 @@ import connector._Draw;
 import connector._KeyAction;
 import constant.Constant;
 
-public abstract class AbstractBaseScene implements _Draw, _KeyAction, Serializable {
+public abstract class AbstractBaseScene
+		implements _Draw, _KeyAction, Serializable {
 
 	private static final long serialVersionUID = -2922632940766544960L;
 	private Color backgroudColor = Color.BLACK;
